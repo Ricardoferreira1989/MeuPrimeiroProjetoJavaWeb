@@ -9,40 +9,48 @@
 </head>
 <body>
 
-	<div id="topo">
-		<h1> Loja Virtual </h1>
-	</div>
-	
-	<div id="menu_lateral">
-		<ul>
-			<li><a href="index.jsp"> Home </a></li>
-			<li><a href="produtos.jsp"> Produtos </a></li>
-			<li><a href="contato.jsp"> Contato</a></li>
-		</ul>
-	</div>
-	
-	<div>
-		<img class="img_produto" alt="chaveiro batman" src="img/batman.jpg">
-		<img class="img_produto" alt="chaveiro groot" src="img/groot.jpg">
-		<img class="img_produto" alt="mousepad razer" src="img/mouse_razer.jpg">
-	</div>
-	
-	<div>
-		<p>
-			<font size="5" face="Times" color="#4B0082">
-				Olá! Seja bem-vindo a nossa Loja Virtual! 
-				Aqui você pode conferir a nossa variedade de produtos. 
-				Temos lindos artigos para presente, roupas e muito mais! 
-				Entre e confira. 
-			</font>
-		</p>
-	</div>
-	
-	<div id="rodape">
-		<p>
-		Todos os direitos reservados © 2019 <br/>
-		Desenvolvido por Ricardo Ferreira
-		</p>
+<div class="container">
+		<header>
+			<div class=top> 
+				<h1> Loja Virtual </h1>
+			</div>
+		</header>
+		<main>
+			<div>
+				<img class="img_produto" src="img/batman.jpg" alt="chaveiro batman"></img>
+				<img class="img_produto" src="img/groot.jpg" alt="chaveiro groot"></img>
+				<img class="img_produto" src="img/headset.jpg" alt="headset logitec"></img>
+				<img class="img_produto" src="img/mascara_caveira.jpg" alt="mascara facial pesca"></img>
+				<img class="img_produto" src="img/mother_board.jpg" alt="placa mãe para computador"></img>
+				<img class="img_produto" src="img/video_card.jpg" alt="placa de video para computador"></img>
+			</div>
+
+			<div>		
+			    <p>
+			        <font size="5" face="Times" color="#4B0082"> 
+			            Olá! Seja bem-vindo a nossa Loja Virtual! Aqui você pode conferir a nossa variedade de produtos. Temos lindos artigos para presente, chaveiros, produtos de informática e muito mais! Entre e confira. 
+			        </font>
+			    </p>
+			</div>
+		</main>
+
+		<aside>
+			<div class="menu_lateral">
+				<ul>
+					<li><a href="index.jsp">HOME</a></li>
+					<li><a href="contato.jsp">CONTATO</a></li>
+					<li><a href="produtos.jsp">PRODUTOS</a></li>
+					<li><a href="cadastro.jsp">CADASTRO</a></li>
+				</ul>
+			</div>
+		</aside>
+
+		<footer>
+			<div class="rodape">
+	            Todos os direitos reservados © 2019<br/>
+	            Desenvolvido por Ricardo Ferreira
+	        </div>
+		</footer>
 	</div>
 	
 </body>

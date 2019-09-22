@@ -5,25 +5,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; meta= UTF-8" >
 <link rel="stylesheet" type="text/css" href="CSS/style.css" >
-<title>Loja - Contato</title>
+<title>Loja - Cadastro</title>
 </head>
 <body>
-
-	<div class="container">
+		<div class="container">
 		<header>
 			<div class=top> 
-				<h1> Contato </h1>
+				<h1> Cadastro </h1>
 			</div>
 		</header>
 		<main>
 
-			<div class="contato">	
-                Quer conferir mais produto? Venha conhecer nossa loja. </br>
-                Rua das Flores, nº 1234. Bairro Jardins - Fortaleza (CE).</br>
-                Telefone: (85) 32333333 </br>
-                 e-mail: lojavirtual@flores.com
-            </div>
-
+				<h3>Formulário de Cadastro:</h3>
+				<form action="Cadastro" class="form" method="post">
+					<label for="name">Nome:</label>
+					<input type="text" name="name" id="name">
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email">
+					<label for="endereco">Endereço:</label>
+					<input type="text" name="endereco" id="endereco">
+					<label for="dataNascimento">Data de Nascimento:</label>
+					<input type="date" name="dataNascimento" id="date">
+					<input type="submit" value="Gravar">
+				</form>	
 		</main>
 
 		<aside>
@@ -39,11 +43,12 @@
 
 		<footer>
 			<div class="rodape">
-	            Todos os direitos reservados © 2018<br/>
-	            Desenvolvido por Amanda Souza
+	            Todos os direitos reservados © 2019<br/>
+	            Desenvolvido por Ricardo Ferreira
 	        </div>
 		</footer>
 	</div>
+
 	
 </body>
 </html>
